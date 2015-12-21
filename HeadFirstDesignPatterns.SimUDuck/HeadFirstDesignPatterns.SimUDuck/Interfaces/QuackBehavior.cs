@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace HeadFirstDesignPatterns.SimUDuck.Interfaces {
     interface QuackBehavior {
-        // Originally "quack()" in the book, but C# conventions dictate using camel-case
-        // with the first letter upper-case for methods. This won't work with class Quack
-        // having a method called Quack()
+        // Originally "quack()" in the book, but C# conventions dictate using PascalCase for methods.
+        // Class Quack is not allowed to have a method called Quack(), as a consequence.
         void DoQuack(); 
     }
 }

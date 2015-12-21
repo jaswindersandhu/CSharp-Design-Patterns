@@ -6,8 +6,8 @@ using HeadFirstDesignPatterns.SimUDuck.Concrete_Classes.QuackBehavior_Implementa
 namespace HeadFirstDesignPatterns.SimUDuck.Concrete_Classes.Duck_Extensions {
     class MallardDuck : Duck {
         public MallardDuck() {
-            QuackBehav = new Quack();
-            FlyBehav = new FlyWithWings();
+            DuckQuackBehavior = new Quack();
+            DuckFlyBehavior = new FlyWithWings();
         }
 
         public override void Display() {

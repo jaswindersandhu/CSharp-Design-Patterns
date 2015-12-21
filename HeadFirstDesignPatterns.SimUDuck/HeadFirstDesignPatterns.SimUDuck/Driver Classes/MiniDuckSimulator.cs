@@ -12,7 +12,7 @@ namespace HeadFirstDesignPatterns.SimUDuck.Driver_Classes {
 
             Duck model = new ModelDuck();
             model.PerformFly();
-            model.FlyBehav = new FlyRocketPowered();
+            model.DuckFlyBehavior = new FlyRocketPowered();
             model.PerformFly();
 
             Console.ReadLine(); // So the console window doesn't close immediately
