@@ -1,0 +1,32 @@
+Strategy Pattern:
+The Duck problem
+The Duck abstract class had concrete methods quack() and fly(),
+but not all Duck extensions quack or fly in the same way, or
+at all. 
+
+Bad solution #1:
+If quack() and fly() were changed to abstract (or just overridden), 
+then you'd have to set how each 
+Duck extension quacks and flies, when likely different Duck extensions
+will fly and quack in the same way (redundancy). Changing all Duck
+extensions that fly in the same way would be a nightmare.
+
+Bad solution #2:
+If quack() and fly() were removed entirely from Duck, and Duck extensions
+implemented Fly and Quack interfaces.
+This would solve the problem that only some Ducks fly or quack, but
+I'd still have to customize each
+Duck extension's implementation, yielding the same redundancy
+and code duplication as before.
+
+Best solution:
+The solution is to create interfaces which model quacking and flying behavior, and
+make the Duck class have a composition relationship with them. I.e. the
+Duck class will then have FlyBehavior and QuackBehavior member variables. Since many
+Duck extensions fly or quack in the same way, they just initialize this
+Duck member variable with the most appropriate implementation of the fly/quack
+interfaces. If Duck extensions don't fly or quack, just initialize as the class
+that implemented fly/quack as "NoFly" and "NoQuack." Now if I need to make a change
+to all Duck extensions that fly in the same way, I can just change once the implementation
+of the fly or quack interface and it'll ripple through.
+This emphasizes a HAS-A relationship over Inheritance, which is a good thing.
