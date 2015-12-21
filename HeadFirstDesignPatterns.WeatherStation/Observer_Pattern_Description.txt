@@ -1,0 +1,32 @@
+Observer pattern:
+
+Ch2 of HFDP addresses how to build a weather monitoring app.
+A WeatherData object pulls data from a weather station (e.g. an API,
+but for this project it's just hardcoded inputs) and pushes it to
+different displays. The objective is for the code to be flexible enough
+that displays can be added/removed willy nilly.
+
+The solution provided by the book is to write Subject and Observer interfaces
+(and a DisplayElement interface, but this isn't essential to the pattern).
+The WeatherData class will implement the Subject
+interface; this interface, however, is generic enough that any class that 
+holds Observers can also implement it. Similarly, any type of class can implement
+the Observer interface, so long as its purpose in life is to receive updates from
+one Subject.
+
+The Subject to Observer relationship is one-to-many: the WeatherData object will
+have an IList member variable that holds Observer objects, and each Observer implementation
+will have a single Subject member variable. The WeatherData object has methods to add and
+remove Observers from its list of Observers. Any time it changes its three weather-related
+member variables (using one SetMeasurements method), a method within this is called
+to update every Observer object in its list.
+
+Here are simple steps to how the Subject and Observer implementations relate to each
+other through a driver class.
+
+>> Create a WeatherData object
+>> Create any number of Observer implementations. Each has a constructor
+that passes the same aforementioned WeatherData object.
+>> Within that constructor the passed WeatherData object calls its add()
+method and adds "this" (the newly created Observer implementation object)
+to its List of Observers.
