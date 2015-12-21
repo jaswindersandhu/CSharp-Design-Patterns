@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\bin\Debug\HeadFirstDesignPatterns.WeatherStation.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\bin\Debug\HeadFirstDesignPatterns.WeatherStation.exe
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\bin\Debug\HeadFirstDesignPatterns.WeatherStation.pdb
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\obj\Debug\HeadFirstDesignPatterns.WeatherStation.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\obj\Debug\HeadFirstDesignPatterns.WeatherStation.exe
+c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.WeatherStation\HeadFirstDesignPatterns.WeatherStation\obj\Debug\HeadFirstDesignPatterns.WeatherStation.pdb
