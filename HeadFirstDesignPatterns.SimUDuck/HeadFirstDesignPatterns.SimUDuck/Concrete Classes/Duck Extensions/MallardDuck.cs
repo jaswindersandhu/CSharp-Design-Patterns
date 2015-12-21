@@ -1,5 +1,7 @@
 ﻿using System;
 using HeadFirstDesignPatterns.SimUDuck.Abstract_Classes;
+using HeadFirstDesignPatterns.SimUDuck.Concrete_Classes.FlyBehavior_Implementations;
+using HeadFirstDesignPatterns.SimUDuck.Concrete_Classes.QuackBehavior_Implementations;
 
 namespace HeadFirstDesignPatterns.SimUDuck.Concrete_Classes.Duck_Extensions {
     class MallardDuck : Duck {
