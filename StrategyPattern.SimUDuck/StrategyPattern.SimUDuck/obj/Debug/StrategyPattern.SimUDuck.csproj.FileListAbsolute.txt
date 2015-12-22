@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\bin\Debug\StrategyPattern.SimUDuck.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\obj\Debug\StrategyPattern.SimUDuck.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\bin\Debug\StrategyPattern.SimUDuck.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\bin\Debug\StrategyPattern.SimUDuck.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\obj\Debug\StrategyPattern.SimUDuck.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\StrategyPattern.SimUDuck\StrategyPattern.SimUDuck\obj\Debug\StrategyPattern.SimUDuck.pdb

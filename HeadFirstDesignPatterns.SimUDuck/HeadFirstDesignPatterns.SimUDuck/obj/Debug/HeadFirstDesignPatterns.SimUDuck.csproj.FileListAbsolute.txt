@@ -1,6 +1,0 @@
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\bin\Debug\HeadFirstDesignPatterns.SimUDuck.exe.config
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\bin\Debug\HeadFirstDesignPatterns.SimUDuck.exe
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\bin\Debug\HeadFirstDesignPatterns.SimUDuck.pdb
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\obj\Debug\HeadFirstDesignPatterns.SimUDuck.csprojResolveAssemblyReference.cache
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\obj\Debug\HeadFirstDesignPatterns.SimUDuck.exe
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.SimUDuck\HeadFirstDesignPatterns.SimUDuck\obj\Debug\HeadFirstDesignPatterns.SimUDuck.pdb
