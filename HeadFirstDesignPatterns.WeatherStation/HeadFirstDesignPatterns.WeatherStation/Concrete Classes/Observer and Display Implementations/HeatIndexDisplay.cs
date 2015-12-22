@@ -4,12 +4,12 @@ using HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implementa
 
 namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_Display_Implementations {
     class HeatIndexDisplay : Observer, DisplayElement {
+        private Subject subject;
         private float heatIndex = 0.0f;
-        private Subject weatherData;
-
-        public HeatIndexDisplay(Subject weatherData) {
-            this.weatherData = weatherData;
-            weatherData.RegisterObserver(this);
+        
+        public HeatIndexDisplay(Subject subject) {
+            this.subject = subject;
+            this.subject.RegisterObserver(this);
         }
 
         public void Update(Subject subject) {

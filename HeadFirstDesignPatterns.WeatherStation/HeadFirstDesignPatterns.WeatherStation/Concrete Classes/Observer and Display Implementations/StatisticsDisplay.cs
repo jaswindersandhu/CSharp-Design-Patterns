@@ -4,15 +4,15 @@ using HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implementa
 
 namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_Display_Implementations {
     class StatisticsDisplay : Observer, DisplayElement {
+        private Subject subject;
         private float maxTemp = 0.0f;
         private float minTemp = 200;
         private float tempSum = 0.0f;
         private int numReadings;
-        private Subject weatherData;
-
-        public StatisticsDisplay(Subject weatherData) {
-            this.weatherData = weatherData;
-            weatherData.RegisterObserver(this);
+        
+        public StatisticsDisplay(Subject subject) {
+            this.subject = subject;
+            this.subject.RegisterObserver(this);
         }
 
         public void Update(Subject subject) {

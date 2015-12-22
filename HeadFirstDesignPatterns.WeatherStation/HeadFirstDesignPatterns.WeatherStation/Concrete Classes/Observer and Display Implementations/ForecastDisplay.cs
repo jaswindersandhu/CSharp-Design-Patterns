@@ -4,13 +4,13 @@ using HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implementa
 
 namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_Display_Implementations {
     class ForecastDisplay : Observer, DisplayElement {
-        private Subject weatherData; // In the Head First code offered on the website, the declared type is WeatherData..that's bad!
+        private Subject subject; // In the Head First code offered on the website, the declared type is WeatherData..that's bad!
         private float currentPressure = 29.2f;
         private float lastPressure;
 
-        public ForecastDisplay(Subject weatherData) {
-            this.weatherData = weatherData;
-            this.weatherData.RegisterObserver(this);
+        public ForecastDisplay(Subject subject) {
+            this.subject = subject;
+            this.subject.RegisterObserver(this);
         }
 
         public void Update(Subject subject) {
