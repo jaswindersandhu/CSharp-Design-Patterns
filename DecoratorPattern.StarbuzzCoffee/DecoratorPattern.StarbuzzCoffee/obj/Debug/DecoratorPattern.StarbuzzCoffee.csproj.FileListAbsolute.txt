@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\bin\Debug\DecoratorPattern.StarbuzzCoffee.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\bin\Debug\DecoratorPattern.StarbuzzCoffee.exe
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\bin\Debug\DecoratorPattern.StarbuzzCoffee.pdb
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\obj\Debug\DecoratorPattern.StarbuzzCoffee.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\obj\Debug\DecoratorPattern.StarbuzzCoffee.exe
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.StarbuzzCoffee\DecoratorPattern.StarbuzzCoffee\obj\Debug\DecoratorPattern.StarbuzzCoffee.pdb
