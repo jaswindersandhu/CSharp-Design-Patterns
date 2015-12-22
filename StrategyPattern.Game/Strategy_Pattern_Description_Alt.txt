@@ -1,0 +1,3 @@
+This uses the Strategy Pattern, the same as SimUDuck. See the folder
+StrategyPattern.SimUDuck for a better
+description of this pattern.
