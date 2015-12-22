@@ -1,6 +1,0 @@
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\bin\Debug\HeadFirstDesignPatterns.Game.exe.config
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\bin\Debug\HeadFirstDesignPatterns.Game.exe
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\bin\Debug\HeadFirstDesignPatterns.Game.pdb
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\obj\Debug\HeadFirstDesignPatterns.Game.csprojResolveAssemblyReference.cache
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\obj\Debug\HeadFirstDesignPatterns.Game.exe
-c:\users\nick\documents\visual studio 2015\Projects\HeadFirstDesignPatterns.Game\HeadFirstDesignPatterns.Game\obj\Debug\HeadFirstDesignPatterns.Game.pdb

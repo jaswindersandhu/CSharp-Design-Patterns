@@ -1,0 +1,5 @@
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.Game\StrategyPattern.Game\bin\Debug\StrategyPattern.Game.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.Game\StrategyPattern.Game\bin\Debug\StrategyPattern.Game.exe
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.Game\StrategyPattern.Game\bin\Debug\StrategyPattern.Game.pdb
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.Game\StrategyPattern.Game\obj\Debug\StrategyPattern.Game.exe
+c:\users\nick\documents\visual studio 2015\Projects\StrategyPattern.Game\StrategyPattern.Game\obj\Debug\StrategyPattern.Game.pdb
