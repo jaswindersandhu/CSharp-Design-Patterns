@@ -2,12 +2,18 @@
 
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
     class HouseBlend : Beverage {
-        public HouseBlend() {
-            Description = "House Blend Coffee";
+        public HouseBlend(string size) {
+            Size = size;
+            Description = Size + " House Blend Coffee";
         }
 
         public override double Cost() {
-            return .89;
+            switch (Size) {
+                case Tall: return .69;
+                case Grande: return .89;
+                case Venti: return 1.09;
+                default: return -1;
+            }
         }
     }
 }
