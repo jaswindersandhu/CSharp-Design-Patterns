@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\bin\Debug\ObserverPattern.MusicalScales.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\bin\Debug\ObserverPattern.MusicalScales.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\bin\Debug\ObserverPattern.MusicalScales.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\obj\Debug\ObserverPattern.MusicalScales.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\obj\Debug\ObserverPattern.MusicalScales.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\ObserverPattern.MusicalScales\ObserverPattern.MusicalScales\obj\Debug\ObserverPattern.MusicalScales.pdb
