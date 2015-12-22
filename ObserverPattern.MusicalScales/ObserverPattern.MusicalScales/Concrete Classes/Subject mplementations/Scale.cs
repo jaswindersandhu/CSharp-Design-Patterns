@@ -14,15 +14,15 @@ namespace ObserverPattern.MusicalScales.Concrete_Classes.Subject_Implementations
         public void PlayAscendingScale() {
             foreach (string s in DiatonicScale) {
                 Console.Write(s + " ");
-                Console.WriteLine();
             }
+            Console.WriteLine();
         }
 
         public void PlayDescendingScale() {
             for (int i = DiatonicScale.Length - 1; i >= 0; i--) {
                 Console.Write(DiatonicScale[i] + " ");
-                Console.WriteLine();
             }
+            Console.WriteLine();
         }
 
         public void RegisterObserver(Observer o) {
@@ -41,10 +41,7 @@ namespace ObserverPattern.MusicalScales.Concrete_Classes.Subject_Implementations
 
         public void SetDiatonicScale(String[] scale) {
             this.DiatonicScale = scale;
-            foreach (string s in DiatonicScale) {
-                Console.Write(s);
-            }
-            Console.WriteLine();
+            PlayAscendingScale();
             NotifyObservers();
         }
     }
