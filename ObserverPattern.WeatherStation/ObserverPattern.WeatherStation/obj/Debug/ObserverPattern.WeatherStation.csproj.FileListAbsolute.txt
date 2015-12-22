@@ -1,0 +1,5 @@
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.WeatherStation\ObserverPattern.WeatherStation\bin\Debug\ObserverPattern.WeatherStation.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.WeatherStation\ObserverPattern.WeatherStation\bin\Debug\ObserverPattern.WeatherStation.exe
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.WeatherStation\ObserverPattern.WeatherStation\bin\Debug\ObserverPattern.WeatherStation.pdb
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.WeatherStation\ObserverPattern.WeatherStation\obj\Debug\ObserverPattern.WeatherStation.exe
+c:\users\nick\documents\visual studio 2015\Projects\ObserverPattern.WeatherStation\ObserverPattern.WeatherStation\obj\Debug\ObserverPattern.WeatherStation.pdb
