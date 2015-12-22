@@ -23,7 +23,7 @@ namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implem
 
         public void NotifyObservers() { // Changed this compared to the book for better readability
             foreach (Observer o in Observers) {
-                o.Update(Temperature, Humidity, Pressure);
+                o.Update(this);
             }
         }
 

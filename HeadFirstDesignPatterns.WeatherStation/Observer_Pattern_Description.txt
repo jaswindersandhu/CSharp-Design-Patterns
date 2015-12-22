@@ -12,7 +12,7 @@ are 3 displays, there will be 3 lines each adding the new temp/humidity/pressure
 This is bad for extensibility; if there are 50 display screens, that's a lot of
 code duplication. Ideally the WeatherData object just needs to update in one line
 to affect every display object that wants its information. Don't code to concrete
-implementations; code to interfaces.
+implementations; code to interfaces!
 
 The solution provided by the book is to write Subject and Observer interfaces
 (and a DisplayElement interface, but this isn't essential to the pattern).

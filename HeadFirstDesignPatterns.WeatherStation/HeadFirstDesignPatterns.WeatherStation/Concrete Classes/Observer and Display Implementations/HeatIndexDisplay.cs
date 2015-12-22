@@ -1,5 +1,6 @@
 ﻿using System;
 using HeadFirstDesignPatterns.WeatherStation.Interfaces;
+using HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implementations;
 
 namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_Display_Implementations {
     class HeatIndexDisplay : Observer, DisplayElement {
@@ -11,9 +12,12 @@ namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_D
             weatherData.RegisterObserver(this);
         }
 
-        public void Update(float temp, float humidity, float pressure) {
-            heatIndex = computeHeatIndex(temp, humidity);
-            Display();
+        public void Update(Subject subject) {
+            if (subject is WeatherData) {
+                WeatherData weatherData = (WeatherData)subject;
+                heatIndex = computeHeatIndex(weatherData.Temperature, weatherData.Humidity);
+                Display();
+            }
         }
 
         private float computeHeatIndex(float t, float rh) {

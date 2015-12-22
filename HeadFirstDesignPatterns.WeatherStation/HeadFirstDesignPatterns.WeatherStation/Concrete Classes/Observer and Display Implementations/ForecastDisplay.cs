@@ -1,5 +1,6 @@
 ﻿using System;
 using HeadFirstDesignPatterns.WeatherStation.Interfaces;
+using HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Subject_Implementations;
 
 namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_Display_Implementations {
     class ForecastDisplay : Observer, DisplayElement {
@@ -12,10 +13,13 @@ namespace HeadFirstDesignPatterns.WeatherStation.Concrete_Classes.Observer_and_D
             this.weatherData.RegisterObserver(this);
         }
 
-        public void Update(float temp, float humidity, float pressure) {
-            lastPressure = currentPressure;
-            currentPressure = pressure;
-            Display();
+        public void Update(Subject subject) {
+            if (subject is WeatherData) {
+                WeatherData weatherData = (WeatherData)subject;
+                lastPressure = currentPressure;
+                currentPressure = weatherData.Pressure;
+                Display();
+            }
         }
 
         public void Display() {
