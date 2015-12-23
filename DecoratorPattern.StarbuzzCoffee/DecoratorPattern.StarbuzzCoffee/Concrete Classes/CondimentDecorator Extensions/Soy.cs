@@ -3,12 +3,11 @@ using DecoratorPattern.StarbuzzCoffee.Abstract_Classes;
 
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.CondimentDecorator_Extensions {
     class Soy : CondimentDecorator {
-        private Beverage beverage;
         public override string Description { get { return beverage.Description + ", Soy"; } }
+        public override string Size { get { return beverage.Size; } }
 
         public Soy(Beverage beverage) {
             this.beverage = beverage;
-            Size = beverage.Size;
         }
 
         public override double Cost() {
