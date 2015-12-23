@@ -1,9 +1,9 @@
-﻿using DecoratorPattern.StarbuzzCoffee.Enum_Classes;
+﻿using DecoratorPattern.StarbuzzCoffee.Interfaces;
 
 namespace DecoratorPattern.StarbuzzCoffee.Abstract_Classes {
-    public abstract class Beverage {
+    abstract class Beverage {
         public virtual string Description { get; set; } = "Unknown Beverage";
-        public virtual BeverageSize Size { get; set; } = BeverageSize.Unknown;
+        public virtual BeverageSize Size { get; set; }
 
         public abstract double Cost();
     }

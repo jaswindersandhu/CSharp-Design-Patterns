@@ -1,5 +1,5 @@
 ﻿using DecoratorPattern.StarbuzzCoffee.Abstract_Classes;
-using DecoratorPattern.StarbuzzCoffee.Enum_Classes;
+using DecoratorPattern.StarbuzzCoffee.Interfaces;
 
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
     class Espresso : Beverage {
@@ -9,12 +9,7 @@ namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
         }
 
         public override double Cost() {
-            switch (Size) {
-                case BeverageSize.Tall: return 1.69;
-                case BeverageSize.Grande: return 1.99;
-                case BeverageSize.Venti: return 2.29;
-                default: return -1;
-            }
+            return 1.99 + Size.Cost();
         }
     }
 }

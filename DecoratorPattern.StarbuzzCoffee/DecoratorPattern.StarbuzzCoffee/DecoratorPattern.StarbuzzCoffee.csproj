@@ -49,13 +49,16 @@
     <Compile Include="Concrete Classes\Beverage Extensions\Decaf.cs" />
     <Compile Include="Concrete Classes\Beverage Extensions\Espresso.cs" />
     <Compile Include="Concrete Classes\Beverage Extensions\HouseBlend.cs" />
+    <Compile Include="Concrete Classes\BeverageSize Implementations\GrandeSize.cs" />
+    <Compile Include="Concrete Classes\BeverageSize Implementations\TallSize.cs" />
+    <Compile Include="Concrete Classes\BeverageSize Implementations\VentiSize.cs" />
     <Compile Include="Concrete Classes\CondimentDecorator Extensions\Mocha.cs" />
     <Compile Include="Concrete Classes\CondimentDecorator Extensions\Soy.cs" />
     <Compile Include="Concrete Classes\CondimentDecorator Extensions\SteamedMilk.cs" />
     <Compile Include="Concrete Classes\CondimentDecorator Extensions\Whip.cs" />
     <Compile Include="Driver Classes\StarbuzzCoffee.cs" />
+    <Compile Include="Interfaces\BeverageSize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Enum Classes\BeverageSize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

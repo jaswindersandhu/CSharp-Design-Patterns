@@ -1,5 +1,5 @@
 ﻿using DecoratorPattern.StarbuzzCoffee.Abstract_Classes;
-using DecoratorPattern.StarbuzzCoffee.Enum_Classes;
+using DecoratorPattern.StarbuzzCoffee.Interfaces;
 
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
     class HouseBlend : Beverage {
@@ -9,12 +9,7 @@ namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
         }
 
         public override double Cost() {
-            switch (Size) {
-                case BeverageSize.Tall: return .69;
-                case BeverageSize.Grande: return .89;
-                case BeverageSize.Venti: return 1.09;
-                default: return -1;
-            }
+            return .89 + Size.Cost();
         }
     }
 }

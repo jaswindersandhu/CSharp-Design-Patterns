@@ -1,5 +1,5 @@
 ﻿using DecoratorPattern.StarbuzzCoffee.Abstract_Classes;
-using DecoratorPattern.StarbuzzCoffee.Enum_Classes;
+using DecoratorPattern.StarbuzzCoffee.Interfaces;
 
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
     class Decaf : Beverage {
@@ -9,12 +9,7 @@ namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.Beverage_Extensions {
         }
 
         public override double Cost() {
-            switch (Size) {
-                case BeverageSize.Tall: return .85;
-                case BeverageSize.Grande: return 1.05;
-                case BeverageSize.Venti: return 1.25;
-                default: return -1;
-            }
+            return 1.05 + Size.Cost();
         }
     }
 }
