@@ -4,7 +4,6 @@ using DecoratorPattern.StarbuzzCoffee.Abstract_Classes;
 namespace DecoratorPattern.StarbuzzCoffee.Concrete_Classes.CondimentDecorator_Extensions {
     class Mocha : CondimentDecorator {
         public override string Description { get { return beverage.Description + ", Mocha"; } }
-        public override string Size { get { return beverage.Size; } }
 
         public Mocha(Beverage beverage) {
             this.beverage = beverage;

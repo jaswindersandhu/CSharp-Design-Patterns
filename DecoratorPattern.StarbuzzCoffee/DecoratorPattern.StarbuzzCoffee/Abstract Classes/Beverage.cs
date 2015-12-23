@@ -4,8 +4,8 @@
         public const string Grande = "Grande";
         public const string Venti = "Venti";
 
-        public virtual string Size { get; set; } = "Unknown Size";
         public virtual string Description { get; set; } = "Unknown Beverage";
+        public virtual string Size { get; set; } = "Unknown Size";
 
         public abstract double Cost();
     }
