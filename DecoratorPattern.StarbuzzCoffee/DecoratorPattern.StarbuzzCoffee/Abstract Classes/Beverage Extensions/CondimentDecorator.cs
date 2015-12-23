@@ -2,6 +2,6 @@
     public abstract class CondimentDecorator : Beverage {
         public Beverage beverage { get; set; }
         public abstract override string Description { get; }  // Extensions must reimplement Description property
-        public override string Size { get { return beverage.Size; } }
+        public override string Size { get { return beverage.Size; } }  //NB this calls the member variable's Size property
     }
 }
