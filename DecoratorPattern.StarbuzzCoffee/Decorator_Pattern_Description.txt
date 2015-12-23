@@ -1,0 +1,29 @@
+Decorator Pattern:
+The problem in the book was that a coffee shop can see one of many base coffees
+with zero to many different condiments (mocha, milk, etc.) and creating a class
+for each variant isn't realistic. The solution is to have each base coffee as
+classes that extend an abstract superclass Beverage, but also an abstract class
+Condiments will extend beverage AND have a Beverage member variable.
+Each condiment will then extend Condiments.
+
+These condiment extensions will be used like wrapper classes. This is similar
+to Java's file I/O, like: new PrintWriter(new FileWriter(new File()));
+In the context of this coffee shop, it'd look like:
+new Mocha(new SteamedMilk(new Soy(new Espresso())));
+
+In the above example there are actually 4 beverage objects created, and they 
+hold eachother like nesting dolls. First the Espresso beverage is created and
+fed into Soy's parameter. Soy takes that argument and assigns it to the beverage
+member variable that its parent class provided it with. SteamedMilk then
+takes the new Soy as its parameter and assigns it to its Beverage member. NB
+that when Soy is created, it holds Espresso as its member variable, but it itself
+is a beverage and itself is assigned to SteamedMilk's member variable (not Espresso).
+
+This is similar to recursion in its design. Each Condiment extension has methods, like Cost()
+and GetDescription() which ask for the description/cost of the Beverage object its class holds
+as a member variable. Each condiment asks the next wrapped class for those details until the base
+coffee beverage is reached.
+
+I added the Strategy pattern to this project to account for the sizes of the beverage. Each
+Beverage extension will hold a BeverageSize and incorporate its respective cost/description to
+the drink.
