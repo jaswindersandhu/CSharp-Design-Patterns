@@ -6,5 +6,8 @@ namespace DecoratorPattern.StarbuzzCoffee.Abstract_Classes {
         public virtual BeverageSize Size { get; set; }
 
         public abstract double Cost();
+        public override string ToString() {
+            return Description + " $" + Cost();
+        }
     }
 }
