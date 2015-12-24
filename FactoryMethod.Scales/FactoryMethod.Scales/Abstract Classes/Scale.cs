@@ -2,6 +2,7 @@
 
 namespace FactoryMethod.Scales.Abstract_Classes {
     abstract class Scale {
+        public string Key { get; set; }
         public PitchClass Tonic { get; set; }
         public PitchClass Supertonic { get; set; }
         public PitchClass Mediant { get; set; }
@@ -22,7 +23,7 @@ namespace FactoryMethod.Scales.Abstract_Classes {
         }
 
         public override string ToString() {
-            return string.Format("{0}-{1}-{2}-{3}-{4}-{5}-{6}",
+            return string.Format(Key + " scale: {0}-{1}-{2}-{3}-{4}-{5}-{6}",
                 Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant, LeadingTone);
         }
     }
