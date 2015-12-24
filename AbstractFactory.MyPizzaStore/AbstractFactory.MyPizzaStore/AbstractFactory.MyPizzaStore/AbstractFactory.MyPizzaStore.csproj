@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{092F79DA-05DC-42C0-9B69-455C4DC0F9F5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AbstractFactory.MyPizzaStore</RootNamespace>
+    <AssemblyName>AbstractFactory.MyPizzaStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract Classes\Abstract Ingredients\Cheese.cs" />
+    <Compile Include="Abstract Classes\Abstract Ingredients\Clams.cs" />
+    <Compile Include="Abstract Classes\Abstract Ingredients\Dough.cs" />
+    <Compile Include="Abstract Classes\Abstract Ingredients\Pepperoni.cs" />
+    <Compile Include="Abstract Classes\Abstract Ingredients\Sauce.cs" />
+    <Compile Include="Abstract Classes\Pizza.cs" />
+    <Compile Include="Abstract Classes\PizzaStore.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Cheese Extensions\MozzarellaCheese.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Cheese Extensions\ParmesanCheese.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Cheese Extensions\ReggianoCheese.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Clams Extensions\FreshClams.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Clams Extensions\FrozenClams.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Dough Extensions\ThickCrustDough.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Dough Extensions\ThinCrustDough.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Pepperoni Extensions\SlicedPepperoni.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Sauce Extensions\MarinaraSauce.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Sauce Extensions\PlumTomatoSauce.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\Mushroom.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\Onion.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\RedPepper.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\Spinach.cs" />
+    <Compile Include="Concrete Classes\Pizza Extensions\CheesePizza.cs" />
+    <Compile Include="Concrete Classes\Pizza Extensions\ClamPizza.cs" />
+    <Compile Include="Concrete Classes\Pizza Extensions\PepperoniPizza.cs" />
+    <Compile Include="Concrete Classes\Pizza Extensions\VeggiePizza.cs" />
+    <Compile Include="Concrete Classes\PizzaIngredientFactory Implementations\ChicagoPizzaIngredientFactory.cs" />
+    <Compile Include="Concrete Classes\PizzaIngredientFactory Implementations\NYPizzaIngredientFactory.cs" />
+    <Compile Include="Concrete Classes\PizzaStore Extensions\ChicagoPizzaStore.cs" />
+    <Compile Include="Concrete Classes\PizzaStore Extensions\NYPizzaStore.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\BlackOlives.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\Eggplant.cs" />
+    <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\Garlic.cs" />
+    <Compile Include="Driver Classes\PizzaTestDrive.cs" />
+    <Compile Include="Interfaces\PizzaIngredientFactory.cs" />
+    <Compile Include="Abstract Classes\Abstract Ingredients\Veggies.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

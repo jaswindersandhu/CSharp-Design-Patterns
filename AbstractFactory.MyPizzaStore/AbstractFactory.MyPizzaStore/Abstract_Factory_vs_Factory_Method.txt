@@ -3,11 +3,7 @@ Abstract Factory vs Factory Method:
 Factory Method
 Pros:
 If I want to add a new type of pizza, e.g. ChicagoStyleHawaiianPizza, I just
-create it as a Pizza extension. I either don't need to modify any code or just a
-tiny by, i.e. if the concrete PizzaStore already exists and I want it to have a new 
-Pizza, I need to edit it's CreatePizza method and add a case to return the new Pizza type.
-If I added a new PizzaStory I'd just be adding new code (new Pizzas), not modifying
-old code.
+create it as a Pizza extension. I don't need to modify any other existing code.
 Toppings is an IList<string> so it will take any and all new toppings in the future.
 
 Cons:
