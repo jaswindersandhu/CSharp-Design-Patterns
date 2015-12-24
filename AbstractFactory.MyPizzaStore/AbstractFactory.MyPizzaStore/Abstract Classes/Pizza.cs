@@ -1,9 +1,11 @@
 ﻿using System;
 using AbstractFactory.MyPizzaStore.Abstract_Classes.Abstract_Ingredients;
 using System.Text;
+using AbstractFactory.MyPizzaStore.Interfaces;
 
 namespace AbstractFactory.MyPizzaStore.Abstract_Classes {
     abstract class Pizza {
+        public PizzaIngredientFactory _IngredientFactory { get; set; }
         public string _Name { get; set; }
         public Dough _Dough { get; set; }
         public Sauce _Sauce { get; set; }

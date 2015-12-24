@@ -4,8 +4,6 @@ using AbstractFactory.MyPizzaStore.Interfaces;
 
 namespace AbstractFactory.MyPizzaStore.Concrete_Classes.Pizza_Extensions {
     class PepperoniPizza : Pizza {
-        public PizzaIngredientFactory _IngredientFactory { get; set; }
-
         public PepperoniPizza(PizzaIngredientFactory ingredientFactory) {
             _IngredientFactory = ingredientFactory;
         }

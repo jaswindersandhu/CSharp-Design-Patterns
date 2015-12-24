@@ -7,7 +7,7 @@ namespace AbstractFactory.MyPizzaStore.Concrete_Classes.PizzaStore_Extensions {
     class ChicagoPizzaStore : PizzaStore {
         public override Pizza CreatePizza(string type) {
             Pizza pizza = null;
-            PizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();
+            PizzaIngredientFactory ingredientFactory = new ChicagoPizzaIngredientFactory();
 
             switch (type) {
                 case "cheese": {

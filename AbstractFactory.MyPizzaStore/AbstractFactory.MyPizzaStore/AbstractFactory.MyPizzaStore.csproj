@@ -70,7 +70,6 @@
     <Compile Include="Concrete Classes\Pizza Extensions\VeggiePizza.cs" />
     <Compile Include="Concrete Classes\PizzaIngredientFactory Implementations\ChicagoPizzaIngredientFactory.cs" />
     <Compile Include="Concrete Classes\PizzaIngredientFactory Implementations\NYPizzaIngredientFactory.cs" />
-    <Compile Include="Concrete Classes\PizzaStore Extensions\CaliforniaPizzaStore.cs" />
     <Compile Include="Concrete Classes\PizzaStore Extensions\ChicagoPizzaStore.cs" />
     <Compile Include="Concrete Classes\PizzaStore Extensions\NYPizzaStore.cs" />
     <Compile Include="Concrete Classes\Abstract Ingredients Extensions\Veggies Extensions\BlackOlives.cs" />
