@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\bin\Debug\FactoryMethod.MyPizzaStore.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\bin\Debug\FactoryMethod.MyPizzaStore.exe
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\bin\Debug\FactoryMethod.MyPizzaStore.pdb
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\obj\Debug\FactoryMethod.MyPizzaStore.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\obj\Debug\FactoryMethod.MyPizzaStore.exe
+c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.MyPizzaStore\FactoryMethod.MyPizzaStore\obj\Debug\FactoryMethod.MyPizzaStore.pdb
