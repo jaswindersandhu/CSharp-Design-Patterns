@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\bin\Debug\AbstractFactory.MyPizzaStore.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\bin\Debug\AbstractFactory.MyPizzaStore.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\bin\Debug\AbstractFactory.MyPizzaStore.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\obj\Debug\AbstractFactory.MyPizzaStore.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\obj\Debug\AbstractFactory.MyPizzaStore.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\AbstractFactory.MyPizzaStore\AbstractFactory.MyPizzaStore\obj\Debug\AbstractFactory.MyPizzaStore.pdb
