@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\bin\Debug\DecoratorPattern.Sentences.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\bin\Debug\DecoratorPattern.Sentences.exe
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\bin\Debug\DecoratorPattern.Sentences.pdb
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\obj\Debug\DecoratorPattern.Sentences.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\obj\Debug\DecoratorPattern.Sentences.exe
+c:\users\nick\documents\visual studio 2015\Projects\DecoratorPattern.Sentences\DecoratorPattern.Sentences\obj\Debug\DecoratorPattern.Sentences.pdb
