@@ -1,0 +1,38 @@
+Abstract Factory vs Factory Method:
+
+Factory Method
+Pros:
+If I want to add a new type of pizza, e.g. ChicagoStyleHawaiianPizza, I just
+create it as a Pizza extension. I don't need to modify any other existing code.
+Toppings is an IList<string> so it will take any and all new toppings in the future.
+
+Cons:
+As more and more regional branches open up, e.g. CaliforniaPizzaStore, they each
+need their variety of every cheese/clam/pepperoni/veggie pizza. This can get unwieldy
+quite quickly as the numbers of regions and Pizza extensions grow; there will be a ton
+of potential classes, e.g. CaliforniaStyleCheesePizza, FloridaStylePepperoniPizza, etc.
+
+There is a lot of code duplication for each Pizza extension: the toppings are strings
+and some Pizzas have the same toppings. If I wanted to changed "Shredded Mozarella Cheese"
+to just "Mozarella" for every pizza that uses it, I'd have to edit many files.
+
+
+Abstract Factory
+Pros:
+There are just 4 (current) Pizza extensions: cheese/clam/pepperoni/veggie. This keeps things simple.
+It also groups ingredients into families, e.g. cheese type, crust type, veggies. This keeps
+things organized.
+
+Cons:
+If I want to add a new ingredient family type, e.g. Fruit, then a lot of files have to be
+edited to compensate for that addition. E.g. the IngredientFactory interface will have to
+add a Fruit CreateFruits(); abstract method. That'll ripple down and force every one
+of its implementations to add a CreateFruits() method, even if they never end up using it.
+This makes things a bit too rigid with respect to extensibility. If I was sure that I'd
+never need another ingredient family, however, this wouldn't be an issue.
+
+This wasn't an issue for the FactoryMethod because it just used an IList<string> called
+toppings to handle every topping. Perhaps if instead of grouping families of ingredients
+together, e.g. CheeseType, ClamsType, etc., just a Toppings interface was used I'd
+be able to use an IList<Toppings> variable to hold everything and make the project
+more extensible.
