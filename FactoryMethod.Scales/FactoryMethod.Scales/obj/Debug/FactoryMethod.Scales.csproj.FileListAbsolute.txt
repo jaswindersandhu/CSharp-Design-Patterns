@@ -1,6 +1,0 @@
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\bin\Debug\FactoryMethod.Scales.exe.config
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\bin\Debug\FactoryMethod.Scales.exe
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\bin\Debug\FactoryMethod.Scales.pdb
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\obj\Debug\FactoryMethod.Scales.csprojResolveAssemblyReference.cache
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\obj\Debug\FactoryMethod.Scales.exe
-c:\users\nick\documents\visual studio 2015\Projects\FactoryMethod.Scales\FactoryMethod.Scales\obj\Debug\FactoryMethod.Scales.pdb
