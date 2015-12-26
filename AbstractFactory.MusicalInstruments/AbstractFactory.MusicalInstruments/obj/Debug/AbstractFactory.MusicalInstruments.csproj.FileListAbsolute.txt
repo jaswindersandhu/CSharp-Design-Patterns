@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\bin\Debug\AbstractFactory.MusicalInstruments.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\bin\Debug\AbstractFactory.MusicalInstruments.exe
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\bin\Debug\AbstractFactory.MusicalInstruments.pdb
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\obj\Debug\AbstractFactory.MusicalInstruments.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\obj\Debug\AbstractFactory.MusicalInstruments.exe
+c:\users\nick\documents\visual studio 2015\Projects\AbstractFactory.MusicalInstruments\AbstractFactory.MusicalInstruments\obj\Debug\AbstractFactory.MusicalInstruments.pdb
