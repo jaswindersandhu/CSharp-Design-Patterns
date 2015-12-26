@@ -1,0 +1,7 @@
+Singleton advantages:
+
+-one and only one instance of the class is ever created
+-can delay that creation to only when it's needed (aka lazy evaluation),
+ as opposed to, e.g., a static variable in compile time
+	-that saves resources
+-prevents unforeseen bugs from the alternative -- having a class with just static methods/variables
