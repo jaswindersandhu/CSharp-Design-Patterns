@@ -1,0 +1,1 @@
+c:\users\nick\documents\visual studio 2015\Projects\SingletonPattern.ChocolateFactory\SingletonPattern.ChocolateFactory\bin\Debug\SingletonPattern.ChocolateFactory.exe.config
