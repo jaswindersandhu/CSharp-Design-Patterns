@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\bin\Debug\CommandPattern.RemoteControl.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\bin\Debug\CommandPattern.RemoteControl.exe
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\bin\Debug\CommandPattern.RemoteControl.pdb
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\obj\Debug\CommandPattern.RemoteControl.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\obj\Debug\CommandPattern.RemoteControl.exe
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.RemoteControl\CommandPattern.RemoteControl\obj\Debug\CommandPattern.RemoteControl.pdb
