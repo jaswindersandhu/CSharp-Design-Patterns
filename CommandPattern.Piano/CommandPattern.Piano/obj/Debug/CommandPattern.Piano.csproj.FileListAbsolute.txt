@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\bin\Debug\CommandPattern.Piano.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\bin\Debug\CommandPattern.Piano.exe
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\bin\Debug\CommandPattern.Piano.pdb
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\obj\Debug\CommandPattern.Piano.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\obj\Debug\CommandPattern.Piano.exe
+c:\users\nick\documents\visual studio 2015\Projects\CommandPattern.Piano\CommandPattern.Piano\obj\Debug\CommandPattern.Piano.pdb
