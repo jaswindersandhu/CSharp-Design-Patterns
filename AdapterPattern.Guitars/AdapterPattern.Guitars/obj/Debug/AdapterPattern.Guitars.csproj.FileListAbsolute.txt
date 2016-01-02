@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\bin\Debug\AdapterPattern.Guitars.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\bin\Debug\AdapterPattern.Guitars.exe
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\bin\Debug\AdapterPattern.Guitars.pdb
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\obj\Debug\AdapterPattern.Guitars.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\obj\Debug\AdapterPattern.Guitars.exe
+c:\users\nick\documents\visual studio 2015\Projects\AdapterPattern.Guitars\AdapterPattern.Guitars\obj\Debug\AdapterPattern.Guitars.pdb
