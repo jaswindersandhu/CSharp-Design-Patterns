@@ -1,0 +1,8 @@
+The adapter and facade patterns are similar in appearance, but differ
+in their intent. The adapter modifies an interface, for example, to deal with
+legacy code. HFDP gave the example of an adapter for an enumeration class based
+off of the iterator class. The facade pattern provides a simplified interface
+for the client to deal with. This interface will typically call methods
+of the facade class's object member variables. This design pattern follows the
+Principle of Least Knowledge in order to encapsulate the details of how the
+methods are being called.
