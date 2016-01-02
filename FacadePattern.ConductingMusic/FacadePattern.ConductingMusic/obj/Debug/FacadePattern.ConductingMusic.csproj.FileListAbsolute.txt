@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\bin\Debug\FacadePattern.ConductingMusic.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\bin\Debug\FacadePattern.ConductingMusic.exe
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\bin\Debug\FacadePattern.ConductingMusic.pdb
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\obj\Debug\FacadePattern.ConductingMusic.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\obj\Debug\FacadePattern.ConductingMusic.exe
+c:\users\nick\documents\visual studio 2015\Projects\FacadePattern.ConductingMusic\FacadePattern.ConductingMusic\obj\Debug\FacadePattern.ConductingMusic.pdb
