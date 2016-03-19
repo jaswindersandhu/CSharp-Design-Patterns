@@ -1,0 +1,3 @@
+Template method pattern serves as a template for an algorithm. It defers some steps
+to subclasses while defining some steps on its own. Some concrete methods in the abstract
+class featured in the template do nothing and can be optionally overridden in sublcasses ("hooks").

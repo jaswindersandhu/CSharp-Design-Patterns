@@ -1,0 +1,6 @@
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\bin\Debug\TemplateMethodPattern.Beverages.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\bin\Debug\TemplateMethodPattern.Beverages.exe
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\bin\Debug\TemplateMethodPattern.Beverages.pdb
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\obj\Debug\TemplateMethodPattern.Beverages.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\obj\Debug\TemplateMethodPattern.Beverages.exe
+c:\users\nick\documents\visual studio 2015\Projects\TemplateMethodPattern.Beverages\TemplateMethodPattern.Beverages\obj\Debug\TemplateMethodPattern.Beverages.pdb
