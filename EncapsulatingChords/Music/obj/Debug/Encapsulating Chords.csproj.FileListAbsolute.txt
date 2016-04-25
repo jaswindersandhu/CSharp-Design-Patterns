@@ -1,0 +1,8 @@
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Music\Music\bin\Debug\Music.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Music\Music\bin\Debug\Music.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Music\Music\bin\Debug\Music.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Music\Music\obj\Debug\Music.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Music\Music\obj\Debug\Music.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\EncapsulatingChords\Music\bin\Debug\Music.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\EncapsulatingChords\Music\obj\Debug\Music.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\EncapsulatingChords\Music\obj\Debug\Music.pdb
