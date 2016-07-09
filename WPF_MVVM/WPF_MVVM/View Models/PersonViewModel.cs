@@ -6,9 +6,38 @@ namespace WPF_MVVM.View_Models
 {
     public class PersonViewModel : ObservableObject
     {
-        public ObservableCollection<Person> People { get; } = new ObservableCollection<Person>();  // Readonly
-        public Person SelectedPerson { get; set; }
+        // Private fields
+        private readonly ObservableCollection<Person> _people = new ObservableCollection<Person>();
+        private Person _selectedPerson;
         private string _currentName;
+        private ICommand _addNameCommand;
+        private ICommand _deleteNameCommand;
+        private ICommand _replaceNameCommand;
+
+        // Public properties
+        public ObservableCollection<Person> People
+        {
+            get
+            {
+                return _people;
+            }
+        }
+
+        public Person SelectedPerson
+        {
+            get
+            {
+                return _selectedPerson;
+            }
+            set
+            {
+                if (_selectedPerson != value)
+                {
+                    _selectedPerson = value;
+                }
+            }
+        }
+        
         public string CurrentName
         {
             get
@@ -20,18 +49,51 @@ namespace WPF_MVVM.View_Models
                 if (_currentName != value)
                 {
                     _currentName = value;
-                    // Needed so any textbox bound to this property can update as
-                    // this property changes, e.g. the single textbox in this VS solution
+                    // Needed when CurrentName is set to string.Empty in AddName() and ReplaceName()
+                    // or else the textbox in the view won't display that empty string for the current name
                     OnPropertyChanged("CurrentName");
                 }
             }
         }
         
         // Button commands
-        public ICommand AddNameCommand { get { return new RelayCommand(param => AddName(), param => CanAddName()); } }
-        public ICommand DeleteNameCommand { get { return new RelayCommand(param => DeleteName(), param => CanDeleteName()); } }
-        public ICommand ReplaceNameCommand { get { return new RelayCommand(param => ReplaceName(), param => CanReplaceName()); } }
+        public ICommand AddNameCommand
+        {
+            get
+            {
+                if (_addNameCommand == null)
+                {
+                    _addNameCommand = new RelayCommand(param => AddName(), param => CanAddName());
+                }
+                return _addNameCommand;
+            }
+        }
 
+        public ICommand DeleteNameCommand
+        {
+            get
+            {
+                if (_deleteNameCommand == null)
+                {
+                    _deleteNameCommand = new RelayCommand(param => DeleteName(), param => CanDeleteName());
+                }
+                return _deleteNameCommand;
+            }
+        }
+
+        public ICommand ReplaceNameCommand
+        {
+            get
+            {
+                if (_replaceNameCommand == null)
+                {
+                    _replaceNameCommand = new RelayCommand(param => ReplaceName(), param => CanReplaceName());
+                }
+                return _replaceNameCommand;
+            }
+        }
+
+        // Command methods
         private void AddName()
         {
             People.Add(new Person(CurrentName));

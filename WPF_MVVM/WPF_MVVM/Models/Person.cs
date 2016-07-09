@@ -14,8 +14,8 @@
                 if (_name != value)
                 {
                     _name = value;
-                    // Needed for when changes to a Person's Name property are made, so
-                    // the view can update accordingly, e.g. Replace button click in this VS solution
+                    // Needed when the Replace button is clicked. Otherwise it changes the Person
+                    // Name property in the code, but doesn't reflect in the view's ListBox
                     OnPropertyChanged("Name");
                 }
             }
