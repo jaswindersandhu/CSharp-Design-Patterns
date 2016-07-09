@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WPF_MVVM.Models;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
+using WPF_MVVM.Models;
 
 namespace WPF_MVVM.View_Models
 {
@@ -26,6 +20,8 @@ namespace WPF_MVVM.View_Models
                 if (_currentName != value)
                 {
                     _currentName = value;
+                    // Needed so any textbox bound to this property can update as
+                    // this property changes, e.g. the single textbox in this VS solution
                     OnPropertyChanged("CurrentName");
                 }
             }
