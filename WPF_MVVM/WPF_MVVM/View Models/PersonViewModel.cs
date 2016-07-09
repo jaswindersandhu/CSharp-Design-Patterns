@@ -56,6 +56,7 @@ namespace WPF_MVVM.View_Models
         private void ReplaceName()
         {
             SelectedPerson.Name = CurrentName;
+            CurrentName = string.Empty;
         }
 
         private bool CanReplaceName()
