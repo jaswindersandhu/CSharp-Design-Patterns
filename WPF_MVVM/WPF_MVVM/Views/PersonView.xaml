@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:WPF_MVVM.Views"
              mc:Ignorable="d"
              d:DesignHeight="123" d:DesignWidth="300">
+    
     <Grid FocusManager.FocusedElement="{Binding ElementName=textBox}">
         <TextBox x:Name="textBox" 
                  Text="{Binding CurrentName, UpdateSourceTrigger=PropertyChanged}"
@@ -34,4 +35,5 @@
             </ListBox.ItemTemplate>
         </ListBox>
     </Grid>
+    
 </UserControl>
